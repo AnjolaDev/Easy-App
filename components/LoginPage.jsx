@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
 export default function LoginPge() {
-  const navigate = useNavigate();
   return (
     <div>
       <div className="mb-5">
@@ -22,9 +19,6 @@ export default function LoginPge() {
         </a>
         <button
           type="submit"
-          onClick={() => {
-            navigate("/Dashboard");
-          }}
           className="bg-yellow-400 px-12 py-2 rounded-full text-black font-medium"
         >
           OK
