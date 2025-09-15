@@ -18,7 +18,7 @@ export default function AuthPage() {
                   className={`px-6 py-2 rounded-full font-medium ${
                     activeTab === "login"
                       ? "bg-yellow-400 text-black"
-                      : "text-gray-600"
+                      : "text-gray-500"
                   }`}
                 >
                   Login
